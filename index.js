@@ -7,5 +7,5 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  
+  retunr doucment.querySelector();
 }
