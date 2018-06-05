@@ -7,9 +7,9 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  var grandNode = document.querySelector('#grand-node');
-  var deepestNode = grandNode.children[0];
-  for (var i = 0; !deepestNode.children[i]; i) {
+  let grandNode = document.querySelector('#grand-node');
+  let deepestNode = grandNode.children[0];
+  for (let i = 0; !deepestNode.children[i]; i) {
     deepestNode = deepestNode.children[0]
   }
   return deepestNode;
