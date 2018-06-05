@@ -8,6 +8,6 @@ function nestedTarget() {
 
 function deepestChild(){
   let grandNode = document.getElementById('grand-node').querySelectorAll('div')
-  return grandNode[deep.length-1]
+  return grandNode[grandNode.length-1]
 
 }
